@@ -1,0 +1,36 @@
+{ "name": "obj-from-keys-list",
+  "version": "0.1.0",
+  "description": "Create an object from a list of keys and a value generator function.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/obj-from-keys-list-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/obj-from-keys-list-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/obj-from-keys-list-js/issues"
+  },
+  "contributors": [],
+
+  "main": "ofk.mjs",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.24",
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.11",
+    "p-tape-all-in-list": "^0.1.1",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
